@@ -1,0 +1,171 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("/img/gym.jpg");
+}
+
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 34px;
+  top: 20px;
+  color: aliceblue;
+}
+
+.mid {
+  display: block;
+  margin: 20px auto;
+  width: 52%;
+}
+
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 34px;
+  top: 20px;
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.navbar li {
+  background-color: black;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.navbar li a {
+  color: grey;
+  text-decoration: none;
+  padding: 16px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: white;
+}
+
+.left img {
+  width: 100px;
+  filter: invert(100%);
+}
+
+.left div {
+  text-align: center;
+  line-height: 0px;
+}
+
+.search {
+  height: 35px;
+  width: 200px;
+}
+
+.btn {
+  height: 25px;
+  cursor: pointer;
+}
+
+.container {
+  display: inline-block;
+  margin: 56px;
+  padding: 0px;
+  width: 33%;
+}
+
+.form-group input {
+  margin: 4px auto;
+  width: 300px;
+  height: 30px;
+}
+
+.container h1 {
+  text-align: center;
+  color: aliceblue;
+}
+
+.container .form-group {
+  text-align: center;
+  height: 30px;
+}
+
+.container button {
+  margin-left: 43%;
+  margin-top: 15px;
+}
+
+.typewriter {
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  margin: 0 362px;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0px;
+  }
+
+  to {
+    width: 44%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: white;
+  }
+}
+
+.media-main {
+  display: inline-block;
+  width: 46%;
+  color: white;
+  margin: 83px;
+}
+
+.join {
+  background: url("/img/join.jpg");
+  background-size: cover;
+}
+.contact {
+  color: white;
+  display: inline-block;
+  margin-left: 386px;
+}
+
+.mb-3 {
+  font-size: 30px;
+  width: 100%;
+}
+
+.form-control {
+  height: 30px;
+  width: 100%;
+}
+
+.about1, .about2{
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item{
+  width:33%;
+}
+
+.row > img{
+  margin: 21px;
+  height: 250px;
+  width: 30%;
+}
