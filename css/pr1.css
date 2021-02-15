@@ -1,7 +1,6 @@
 body {
   margin: 0px;
   padding: 0px;
-  background: url("/img/gym.jpg");
 }
 
 .left {
@@ -134,10 +133,6 @@ body {
   margin: 83px;
 }
 
-.join {
-  background: url("/img/join.jpg");
-  background-size: cover;
-}
 .contact {
   color: white;
   display: inline-block;
